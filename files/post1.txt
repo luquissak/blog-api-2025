@@ -1,0 +1,45 @@
+page_content='Reflexões do Filósofo (de rua)
+
+sexta-feira, 7 de fevereiro de 2025
+
+O problema de Parmênides
+
+Esse texto aborda de maneira geral o problema de Parmênides e uma possível solução lógica
+
+A definição do ser parmenidiano[i]. Foi no seu poema sobre a natureza que Parmênides classificou a arché, isto é, o princípio da realidade, como sendo o ser, algo uno e imutável, algo que é, ao passo que o não ser representava a mudança, não passando de ilusão. Basicamente significa que uma coisa, um ser, não pode vir do não ser, porque o não ser nada é. Então o ser, que é, só poderia vir do próprio ser, que é. Assim, o ser não é gerado e não perece e pode ser considerado finito e redondo, simbolizando a esfera, como elemento da perfeição grega. E é um ser físico, não transcendente.
+
+Conforme explica Costa, há em Parmênides uma separação entre o conhecimento que vem do ser e o erro causado pelo não ser. Conhece-se o imutável e coloca-se em xeque o mundo da mudança heraclitiano, embora para Heráclito o fundamento último por trás dessa realidade é a razão (logos).
+
+Ocorre que o discurso parmenidiano é incoerente e gerou debates intermináveis, pois permite inúmeras interpretações. Haveria para os lógicos, por exemplo, princípios de identidade (o ser é) e da não contradição (o que é não pode não ser). Epistemologicamente falando, deveríamos então buscar a verdade, pelo caminho do ser. Por fim ele acena para um deus imutável e pela busca de leis únicas da natureza. De todo o modo, Parmênides introduz a substantivação do ser, que também será bastante utilizada na história filosófica. Mas Costa considera que o termo “ser” é usado de forma hipostasiada[ii], como esclarecido pela filosofia de Wittgenstein, por usa terapia de uso da linguagem.
+
+Parmênides e a linguagem[iii]. De acordo com Desidério, é Parmênides que realiza as primeiras reflexões instrumentais sobre a linguagem, na história da filosofia. Façamos a distinção: podemos refletir sobre a linguagem, sua natureza, uso, e podemos usar a linguagem para fazer considerações filosóficas. Nesse sentido, Parmênides realiza uma virada na filosofia até então, quando os filósofos se aproximavam dos cientistas, e passa a tecer considerações linguística acerca da natureza última do mundo, ele realiza uma análise conceitual. Ocorre que, salienta Desidério, quando nos valemos de um exame conceitual para compreendermos o mundo podemos cair em meros jogos de palavras.
+
+Não seria mera tautologia dizer que “o que é, é”? Ou que “coisas que não são, não são”? É ilusão dizer que algo não é e há confusão entre o verbo ser e a realidade. Se utilizando de recursos linguísticos apenas, a expressão o que é revela incoerências, mas esse tipo de método não reflete sobre a linguagem. Lembremos dos paradoxos que partem de situações banais e nos fazem cair em contradições. Então, faz-se necessário escrutinar a linguagem, como é o caso de dizer que, não que “uma coisa não é”, mas que “uma coisa não é outra coisa”, sem cair em incoerências[iv].
+
+Tentativas de resolver o problema[v]. Como problematizado por Parmênides há contradição na mudança do ser ao não ser e tal realidade seria absurda. Porém, as soluções gregas não negam esse ser, mas passam por abordagem dualistas, seja a platônica ou a aristotélica. Para o primeiro, tal contradição é aparente: o mundo que conhecemos é o mundo sensível, das aparências, mas há um mundo inteligível, de essências, que é imutável. É pela transcendência, em um mundo habitado por ideias elevadas que podemos compreender a instabilidade.
+
+Se Aristóteles herda essa visão dualista, sua solução não será transcendente porque ao pleitear um mundo das ideias teríamos o problema de o correlacionarmos com o mundo sensível. O estagirita entende que a duplicação não é solução, mas uma fuga da realidade sensível. Ora, se para cada coisa há um arquétipo no mundo ideal, a criação de um novo objeto significaria que apareceria, para ele, um novo modelo? Isso é contraditório, já que os modelos são eternos e imutáveis.
+
+Não é o caso de explorarmos outras dificuldades na abordagem platônica, mas o fato é que o problema se coloca porque não há ciência sobre o que muda, o que é efêmero. É pela estabilidade que identificamos as coisas e as conhecemos. De posse disso, Aristóteles postula um dualismo não transcendente que se divide entre o sensível e o inteligível. Desse modo, não duplicamos a realidade, mas a encaramos em sua forma múltipla e a ordenamos para que o conhecimento seja possível.
+
+Para Aristóteles, é pelo uso de instrumentos intelectuais que vamos além da sensibilidade e tornamos a realidade inteligível. Segundo o professor Franklin, essa é a forma de pensar contemporânea, que trata de coisas diferentes (sensível e inteligível) mas juntas, em uma relação imanente. Assim, podemos contrapor a realidade pelo pensar lógico que não salta para a transcendência. Por fim, ressalta Franklin, o mundo das ideias é uma concepção platônica, já que Sócrates procurava por definições, ele visava identificar as coisas sensíveis não individualmente, mas genericamente, onde é a morada do conhecimento[vi].
+
+[i] Esses três primeiros parágrafos foram extraídos do dicionário de filosofia de Cláudio Costa. Ver https://www.youtube.com/watch?v=mHYcPxw84n8.
+
+[ii] “Segundo a reflexão moderna e contemporânea a hipóstase é um equívoco cognitivo que se caracteriza pela atribuição de existência concreta e objetiva (existência substancial) a uma realidade fictícia, abstrata ou meramente restrita à incorporalidade do pensamento humano. A correção monetária brasileira é uma hipóstase da ideia de valor.” - https://letacio.com/2015/03/19/do-ponto-de-vista-filosofico-a-correcao-monetaria-e-uma-hipostase/.
+
+[iii] Nessa seção argumentamos conforme curso remoto de Filosofia da Linguagem, ministrado pelo professor Desidério Murcho entre 15 de janeiro e 6 de fevereiro de 2024.
+
+[iv] De acordo com Desidério, Platão teria feito essa análise nos diálogos Sofista e Parmênides.
+
+[v] Essa última sessão baseia em uma aula de Franklin Leopoldo e Silva: https://youtu.be/glXXqTXol8Y.
+
+[vi] Vimos isso no Teeteto que acabamos de ler e vamos anotar algo nesse espaço.
+
+Postado por Luís Fernando de Siqueira Quissak Pereira às 2/07/2025 08:17:00 AM
+
+Enviar por e-mailPostar no blog!Compartilhar no XCompartilhar no FacebookCompartilhar com o Pinterest
+
+Marcadores: aparência, ciência, conhecimento, essência, imanência, linguagem, mudança, ser, substantivação, transcendência
+
+Local: Pinheiros, São Paulo - SP, Brasil

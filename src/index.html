@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://rawgit.com/tklepzig/lcars.web/master/dist/css/lcars.web.min.css">
+
+    <title>Deuso do Olimpo</title>
+    <script>
+        function addMessage(sender, message) {
+            var chatMessages = document.getElementById('txtMessages');
+            var messageElement = document.createElement('div');
+
+            // add a class called divMessage
+            messageElement.classList.add('divMessage');
+
+            messageElement.innerHTML = sender + ': ' + message;
+            chatMessages.appendChild(messageElement);
+
+            // scroll to the bottom
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function sendMessageToServer(message) {
+            fetch('/chain/invoke', {
+                method: 'POST',
+                headers: {
+                    'accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    input: {
+                        text: message
+                    },
+                    config: {},
+                    kwargs: {}
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server response:', data);
+                    addMessage('Deuso do Olimpo', data.output);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function sendMessage() {
+            var txtChatInput = document.getElementById('txtChatInput');
+            var message = document.getElementById('txtChatInput').value;
+            addMessage('Interlocutor', message);
+
+            // send message to the server
+            sendMessageToServer(message);
+
+            // Clear the input
+            txtChatInput.value = '';
+            txtChatInput.focus();
+        }
+
+        function bodyOnLoad() {
+            var txtChatInput = document.getElementById('txtChatInput');
+            txtChatInput.focus();
+
+            // when I press the enter key, send the message
+            txtChatInput.addEventListener('keyup', function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    document.getElementById('send-button').click();
+                }
+            });
+        }
+    </script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #divUserInput {
+            display: flex;
+            align-items: center;
+        }
+
+        #txtChatInput {
+            flex: 1;
+            margin-right: 10px;
+            margin-left: 20px;
+            background-color: #0d0d0d;
+            border: 0px solid #0d0d0d;
+            color: #CC9133;
+            border-top: 0px solid #0d0d0d;
+            font-size: 24pt;
+        }
+
+        .input-group-append {
+            display: flex;
+            align-items: center;
+        }
+
+        #send-button {
+            margin-left: 10px;
+            /* Optional: Add some space between the input and the button */
+            background-color: #CC9133;
+        }
+
+        #send-button:hover {
+            background-color: #d3a864;
+        }
+
+        #txtMessages {
+            margin-left: 20px;
+            font-size: 24pt;
+            overflow-y: auto;
+            height: 500px;
+        }
+
+        #txtChatInput:focus {
+            border-color: black; /* Change the border color to white when the input is focused */
+            outline: none; /* Optionally remove the default outline */
+        }        
+
+        .side-bar {            
+            background-color: #CC9133;
+            font-size: 24pt;
+        }
+
+        .divMessage {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #0d0d0d;
+            font-size: 24pt;
+        }
+    </style>
+</head>
+
+<body onload="bodyOnLoad()">
+    <div class="panel top left top-xxs left-xl dim red" style="flex: 4">
+        <div class="row group group-xxs">
+            <div class="area flex dim red"></div>
+            <div class="label text dim red">Deuso do Olimpo</div>
+            <div class="area round-r dim red"></div>
+        </div>
+        <div class="column">
+
+            <div class="area flex side-bar" >
+                Oi, vamos falar de filosofia?
+                <br><br>
+                Deuso do Olimpo 1.0
+            </div>
+        </div>
+        <div class="content">
+            <div class="group">
+                <button class="btn flex round-l dim orange"></button>
+                <div class="label text dim orange">Penso logo existo</div>
+                <div class="area round-r dim orange">
+                </div>
+            </div>
+            <div>
+                <div id="divUserInput">
+                    <input type="text" placeholder="Escreva aqui..." id="txtChatInput">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="send-button"
+                            onclick="sendMessage()">Enviar</button>
+                    </div>
+                </div>
+                <div id="txtMessages">
+                    <!-- Chat messages will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
