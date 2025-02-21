@@ -95,7 +95,6 @@ gcloud run services describe $Env:APP --region $Env:GCP_REGION
 # Git Setup
 
 ```bash
-echo "# blog-api-2025" >> README.md
 git init
 git add README.md
 git commit -m "initial load"
