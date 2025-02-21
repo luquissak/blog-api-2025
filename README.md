@@ -1,15 +1,25 @@
+# Introduction
+
+Python project that uses Gen AI to analyze blog posts.
+
+# Clone repo
+
+```bash
+git clone git@github.com:luquissak/blog-api-2025.git
+```
+
 # Enable GCP services
 
 ```bash
 gcloud services enable aiplatform.googleapis.com
-gcloud services enable artifactregistry.googleapis.com 
+gcloud services enable artifactregistry.googleapis.com
 gcloud services enable bigquery.googleapis.com
 gcloud services enable bigqueryconnection.googleapis.com
-gcloud services enable cloudresourcemanager.googleapis.com 
-gcloud services enable cloudbuild.googleapis.com 
+gcloud services enable cloudresourcemanager.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
 gcloud services enable containerregistry.googleapis.com
 gcloud services enable generativelanguage.googleapis.com
-gcloud services enable run.googleapis.com 
+gcloud services enable run.googleapis.com
 gcloud services enable secretmanager.googleapis.com
 ```
 
@@ -48,7 +58,7 @@ get-content .env | foreach {
     set-content env:\$name $value
     echo $name $value
 }
-cd src 
+cd src
 uvicorn main:app --reload
 .venv\scripts\activate && fastapi dev app\main.py
 .venv\scripts\activate && fastapi run
@@ -81,3 +91,15 @@ gcloud run services describe $Env:APP --region $Env:GCP_REGION
 
 - [Build and deploy a LangChain app on Google Cloud Run](https://github.com/michaelprosario/langchain-cloudrun-lab/tree/main?tab=readme-ov-file)
 - [Deploying a FastAPI app on Google Cloud Run](https://github.com/sekR4/FastAPI-on-Google-Cloud-Run/tree/main)
+
+# Git Setup
+
+```bash
+echo "# blog-api-2025" >> README.md
+git init
+git add README.md
+git commit -m "initial load"
+git branch -M main
+git remote add origin git@github.com:luquissak/blog-api-2025.git
+git push -u origin main
+```
